@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Pompiere;
+    src: url('../assets/fonts/Pompiere-Regular.ttf');
+}
+
+@font-face {
+    font-family: PrincessSofia;
+    src: url('../assets/fonts/PrincessSofia-Regular.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Pompiere;
+    color: #606c38;
+    background-color: #dda15e;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+.header {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: PrincessSofia;
+    font-size: 2.5rem;
+    color: #283618;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav>button {
+    padding: 5px;
+    background-color: #fefae0;
+    border: none;
+    border-radius: 3px;
+    font-family: PrincessSofia;
+    font-size: large;
+}
+
+nav>button:hover {
+    background-color: #606c38
+}
+
+.tabcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HOME */
+img {
+    border-radius: 2%;
+    /* background-color: #bc6c25; */
+    /* border-radius: 5%; */
+}
+
+.interior-attribution {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #fefae0;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #606c38;
+}
+
+h2 {
+    padding: 5px;
+    text-align: center;
+}
+
+/* MENU */
+.smoothie {
+    background-color: #fefae0;
+    border: #283618 2px;
+    border-style: inset;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #283618 inset;
+    margin: 8px;
+    padding: 5px;
+    width: 90%;
+}
+
+#menu h2 {
+    margin: -5px -5px 5px -5px;
+    box-shadow: 0 0 5px #283618 inset;
+    font-family: PrincessSofia;
+    color: #283618;
+    background-color: #bc6c25;
+}
+
+#menu .smoothieContent {
+    display: flex;
+    gap: 8px;
+
+}
+
+#menu .smoothiePhoto {
+    font-size: 1rem;
+}
+
+#menu .smoothie-description {
+    padding: 10px;
+    color: #283618;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+#menu a {
+    color: #283618;
+}
+#menu a:hover {
+    color: #fefae0;
+}
+#menu img {
+    border-radius: 5px;
+    box-shadow: 0 0 5px #283618;
+}
+
+#menu .smoothie-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#menu .price {
+    font-size: 2rem;
+    color: #283618;
+    text-align: end;
+    padding: 10px;
+
+
+}
+
+/* ABOUT */
+#about {
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+#thanks {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #283618;
+    margin-bottom: 40px;
+}
+
+#not-responsible {
+    padding: 40px;
+}
