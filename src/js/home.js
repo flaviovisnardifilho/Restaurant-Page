@@ -1,4 +1,4 @@
-// import Image from '../assets/img/pexels-pratik-gupta-2995188.jpg'
+import coverImage from '../assets/img/smoothie-clipart-md.png'
 
 export default function loadHome() {
   const content = document.querySelector('#content');
@@ -8,7 +8,7 @@ export default function loadHome() {
   tabcontent.id = 'home';
 
   const openImage = document.createElement('img');
-  openImage.src = '../src/assets/img/smoothie-clipart-md.png';
+  openImage.src = coverImage;
   
   openImage.alt = 'Green smoothie';
   openImage.height = '350';

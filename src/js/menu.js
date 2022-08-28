@@ -1,8 +1,16 @@
+import broccoliSmoothie from '../assets/img/pexels-alisha-mishra-1346347.jpg'
+import warmIceBlue from '../assets/img/pexels-moldy-vintages-8573731.jpg'
+import bananaPeel from '../assets/img/pexels-alleksana-4051785.jpg'
+import alltheStuff from '../assets/img/pexels-valeria-boltneva-1169004.jpg'
+import christmasSpecial from '../assets/img/pexels-annelies-brouw-3523148.jpg'
+import eletricalMango from '../assets/img/pexels-vd-photography-12912638.jpg'
+import chefLeftovers from '../assets/img/pexels-roman-odintsov-4551975.jpg'
+import cabbageSmoothie from '../assets/img/pexels-kelvin-octa-7190365.jpg'
 const smoothies = [
     {
         title: 'Pure-ish Broccoli Smoothie',
         image: {
-            src: '../src/assets/img/pexels-alisha-mishra-1346347.jpg',
+            src: broccoliSmoothie,
             imageAlt: 'Broccoli smoothie',
             width: 150,
             attributionHref: 'https://www.pexels.com/photo/clear-glass-bottle-filled-with-broccoli-shake-1346347/',
@@ -15,7 +23,7 @@ const smoothies = [
     {
         title: 'Warm Ice Blue',
         image: {
-            src: '../src/assets/img/pexels-moldy-vintages-8573731.jpg',
+            src: warmIceBlue,
             imageAlt: 'Blue smoothie',
             width: 150,
             attributionHref: 'https://www.pexels.com/photo/glass-with-blue-liquid-and-whipped-cream-8573731/',
@@ -28,7 +36,7 @@ const smoothies = [
     {
         title: 'Banana\'s Peel Special',
         image: {
-            src: '../src/assets/img/pexels-alleksana-4051785.jpg',
+            src: bananaPeel,
             imageAlt: 'Banana smoothie',
             width: 150,
             attributionHref: 'https://www.pexels.com/photo/food-cold-relaxation-summer-4051785/',
@@ -41,7 +49,7 @@ const smoothies = [
     {
         title: 'All the stuff from that box',
         image: {
-            src: '../src/assets/img/pexels-valeria-boltneva-1169004.jpg',
+            src: alltheStuff,
             imageAlt: 'All you can fit smoothie',
             width: 150,
             attributionHref: 'https://www.pexels.com/photo/person-holding-saucer-with-mug-of-chocolate-ice-cream-coffee-1169004/',
@@ -54,7 +62,7 @@ const smoothies = [
     {
         title: 'Christmas Special',
         image: {
-            src: '../src/assets/img/pexels-annelies-brouw-3523148.jpg',
+            src: christmasSpecial,
             imageAlt: 'Christmas smoothie',
             width: 150,
             attributionHref: 'https://www.pexels.com/photo/ice-cream-on-glass-with-cookies-on-top-3523148/',
@@ -67,7 +75,7 @@ const smoothies = [
     {
         title: 'Eletrical Mango',
         image: {
-            src: '../src/assets/img/pexels-vd-photography-12912638.jpg',
+            src: eletricalMango,
             imageAlt: 'Mango smoothie',
             width: 150,
             attributionHref: 'https://www.pexels.com/photo/clear-drinking-glass-with-yellow-liquid-on-brown-wooden-coaster-12912638/',
@@ -79,7 +87,7 @@ const smoothies = [
     {
         title: 'Chef\'s Red Leftovers',
         image: {
-            src: '../src/assets/img/pexels-roman-odintsov-4551975.jpg',
+            src: chefLeftovers,
             imageAlt: 'Red leftovers smoothie',
             width: 150,
             attributionHref: 'https://www.pexels.com/photo/apple-and-beetroot-smoothie-4551975/',
@@ -91,7 +99,7 @@ const smoothies = [
     {
         title: 'Cabbage Smoothie',
         image: {
-            src: '../src/assets/img/pexels-kelvin-octa-7190365.jpg',
+            src: cabbageSmoothie,
             imageAlt: 'Cabbage smoothie',
             width: 150,
             attributionHref: 'https://www.pexels.com/photo/fruit-salad-with-yoghurt-in-plastic-jars-on-chopping-board-beside-mango-7190365/',
